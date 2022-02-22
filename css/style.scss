@@ -679,6 +679,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 margin-bottom: 20px;
+gap: 15px;
 }
 .popup-links>a{
 color: #fff;
@@ -688,7 +689,7 @@ padding: 10px 25px;
 text-decoration: none;
 text-align: center;
 border: 1px solid transparent;
-margin-right: 15px;
+
 }
 .popup-links>a:last-child{
 margin-right: 0px;
