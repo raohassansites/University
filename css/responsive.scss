@@ -1,0 +1,661 @@
+@media (min-width: 1580px) {
+    .slider-img>img{
+        max-height: 682px;
+    }
+    .question-img{
+        display: block;
+    }
+    .banner-slider{
+        width: 60%;
+    }
+    .banner-slider-nav{
+        width: 40%;
+    }
+    .slider-navigation{
+        padding: 39px 0px 39px 65px;
+    }
+}
+@media (min-width: 970px) and (max-width: 1140px){
+    .container{
+        padding: 0px 10px;
+    }
+    .login-popup{
+        width: 70%;
+    }
+    .top-strip-inside{
+        padding: 0px 20px;
+    }
+    .navbar-inside{
+        padding: 29px 10px;
+    }
+    .navigation > ul > a{
+        padding: 0px 15px;
+    }
+    .get-started{
+        padding: 15px 20px;
+    }
+    .banner-slider{
+        width: 55%;
+    }
+    .banner-slider-nav{
+        width: 45%;
+    }
+    .slider-navigation{
+        padding: 39px 0px 39px 40px;
+    }
+    .slider-navigation > p{
+        width: 95%;
+    }
+    .find-your-course{
+        padding: 0px 10px;
+        gap: 20px;
+    }
+    .o-l-e-autoplay{
+        flex: 4;
+    }
+    .o-l-events{
+        flex: 2;
+    }
+    .o-l-e-stats{
+        width: 20%;
+    }
+    .popular-course-main{
+        gap: 15px;
+        padding: 0px 10px;
+    }
+    .why-choose-us-content{
+        gap: 20px;
+        padding: 0px 10px;
+    }
+    .w-c-u-stats{
+        gap: 20px;
+    }
+    .y-c-l-main{
+        justify-content: center;
+    }
+    .o-l-events-img>img{
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    .main-events{
+        padding: 0px 10px;
+    }
+    .w-c-s-holder{
+        display: inline-block;
+        min-height: 430px;
+    }
+    .our-history-and-advice-main{
+        gap: 60px;
+        padding: 60px 10px 75px;
+    }
+    .bn-content{
+        padding: 0px 10px;
+    }
+    .bn-img > img{
+        width: 100%;
+    }
+    .contact-us{
+        gap: 20px;
+        padding: 0px 10px;
+    }
+    .newsletter-form{
+        padding: 20px 10px;
+    }
+    .footer-main{
+        // gap: 30px;
+        padding: 0px 10px 50px;
+    }
+    .copyright-bar-main{
+        padding: 35px 10px;
+    }
+}
+@media (min-width: 768px) and (max-width: 969px){
+    .container{
+        padding: 0px 10px;
+    }
+    .y-c-l-number{
+        width: 100%;
+    }
+    .get-advice > h1{
+        text-align: center;
+    }
+    .login-popup{
+        width: 70%;
+    }
+    .top-strip-inside{
+        flex-direction: column;
+    }
+    .navbar-inside{
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px 10px;
+    }
+    .banner{
+        flex-direction: column;
+    }
+    .banner-slider{
+        width: 100%;
+    }
+    .banner-slider-nav{
+        width: 100%;
+    }
+    .find-your-course-form{
+        width: 46%;
+    }
+    .courses > a{
+        flex-basis: 25%;
+    height: 28%;
+    }
+    .popular-course-number{
+        flex-basis: 33%;
+    }
+    .why-choose-us-content{
+        flex-direction: column;
+        align-items: center;
+    }
+    .why-choose-us-main,.questions{
+        width: 100%;
+    }
+    .y-c-l-main{
+        justify-content: center;
+    }
+    .o-l-e-main{
+        width: 70%;
+    }
+    .o-l-events-img>img{
+        width: 100%;
+    }
+    .o-l-e-content{
+        flex-wrap: wrap;
+        gap: 55px;
+    }
+    .o-l-e-autoplay{
+        width: 90%;
+    }
+    .o-l-events{
+        width: 40%;
+    }
+    .w-c-s-comments-1{
+        padding: 30px 20px 30px 35px;
+    }
+    .w-c-s-comments{
+        padding: 35px;
+    }
+    .bn-content{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .bn-content-number{
+        width: 48%;
+    }
+    .bn-img > img{
+        width: 100%;
+    }
+    .uni-heading > span{
+        width: 57%;
+    }
+    .i-d-main{
+        gap:124px;
+    }
+    .dot-line-1,.dot-line-2{
+        width: 124px;
+    }
+    .footer-main{
+        flex-wrap: wrap;
+        padding-bottom: 50px;
+    }
+    .copyright-bar-main{
+        padding: 35px 10px;
+    }
+    .w-c-s-right-arrow {
+        right: -40px;
+    }
+    .w-c-s-left-arrow{
+        left: -40px;
+    }
+    .our-history-and-advice-main{
+        padding: 50px 10px;
+        flex-wrap: wrap;
+    }
+    .scroll{
+        width: 100%;
+        order: 2;
+    }
+    .get-advice{
+        width: 100%;
+        order: 1;
+    }
+
+}
+@media (min-width: 568px) and (max-width: 767px){
+    .container{
+        padding: 0px 10px;
+    }
+    .y-c-l-number{
+        width: 100%;
+    }
+    .get-advice > h1{
+        text-align: center;
+    }
+    .login-popup{
+        width: 90%;
+    }
+    .top-strip-inside{
+        flex-direction: column;
+    }
+    .navbar-inside{
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px 10px;
+    }
+    .banner{
+        flex-direction: column;
+    }
+    .banner-slider{
+        width: 100%;
+    }
+    .banner-slider-nav{
+        width: 100%;
+    }
+    .find-your-course{
+        flex-wrap: wrap;
+    }
+    .find-your-course-form{
+        width: 100%;
+    }
+    .courses{
+        width: 100%;
+    }
+    .courses > a{
+        flex-basis: 22%;
+    height: 65%;
+    }
+    .popular-course-number{
+        flex-basis: 33%;
+    }
+    .why-choose-us-content{
+        flex-direction: column;
+        align-items: center;
+    }
+    .why-choose-us-main,.questions{
+        width: 100%;
+    }
+    .y-c-l-main{
+        justify-content: center;
+    }
+    .location{
+        width: 100%;
+    }
+    .location>iframe{
+        width: 100%;
+    }
+    .o-l-e-stats-number{
+        width: 32%;
+    }
+    .main-events{
+        flex-direction: column;
+        gap: 60px;
+        align-items: center;
+    }
+    .o-l-e-main{
+        width: 100%;
+    }
+    .o-l-events-img>img{
+        width: 100%;
+    }
+    .o-l-e-content{
+        flex-wrap: wrap;
+        gap: 55px;
+        justify-content: center;
+    }
+    .o-l-e-autoplay{
+        width: 100%;
+    }
+    .o-l-events{
+        width: 40%;
+    }
+    .o-l-e-stats{
+        width: 95%;
+        align-items: flex-start;
+        gap: 10px;
+        flex-direction: row;
+        padding: 30px 15px;
+    }
+    .w-c-s-main{
+        flex-direction: column;
+    }.w-c-s-number{
+        width: 100%;
+    }
+    .w-c-s-holder{
+        width: 100%;
+    }
+    .w-c-s-comments-1{
+        padding: 30px 20px 30px 35px;
+        position: relative;
+        width: 100%;
+    }
+    
+    .w-c-s-comments-1::before {
+        top:100%;
+    }
+    .w-c-s-comments{
+        padding: 35px;
+    }.w-c-s-number-1{
+        position: static;
+    }
+    .bn-content{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .bn-content-number{
+        width: 100%;
+    }
+    .bn-img > img{
+        width: 100%;
+    }
+    .uni-heading > span{
+        width: 40%;
+    }
+    .i-d-main{
+        gap:124px;
+        flex-wrap: wrap;
+    }
+    .contact-us{
+        flex-wrap: wrap;
+    }
+    .dot-line-1,.dot-line-2{
+        width: 124px;
+        display: none;
+    }
+    .footer-main{
+        flex-wrap: wrap;
+        padding-bottom: 50px;
+    }
+    .copyright-bar-main{
+        padding: 35px 10px;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .w-c-s-right-arrow {
+        right: -40px;
+    }
+    .w-c-s-left-arrow{
+        left: -40px;
+    }
+    .our-history-and-advice-main{
+        padding: 50px 10px;
+        flex-wrap: wrap;
+    }
+    .scroll{
+        width: 100%;
+        order: 2;
+    }
+    .get-advice{
+        width: 100%;
+        order: 1;
+    }
+    .navigation > ul > a{
+        padding: 0 12px;
+    }
+    .language, .top-strip-address, .login-info{
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+    }
+
+
+}
+@media (min-width: 320px) and (max-width: 567px){
+    .container{
+        padding: 0px 10px;
+    }
+    .y-c-l-number{
+        width: 100%;
+    }
+    .get-advice > h1{
+        text-align: center;
+    }
+    .login-popup{
+        width: 90%;
+    }
+    .top-strip-inside{
+        flex-direction: column;
+    }
+    .logo-txt > span:first-child{
+        font-size: 14px;
+    }
+    .footer-number>.logo-main{
+        width: 100%;
+    }
+    .logo-main{
+        width: 40%;
+    }
+    .navigation{
+        width: 100%;
+        order: 3;
+    }
+    .get-started{
+        padding: 10px 15px;
+        order: 2;
+    }
+    .navigation>span{
+        display: block;
+        color: #222845;
+        font-size: 24px;
+        cursor: pointer;
+    }
+    .navigation>ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        display: none;
+    }
+    .navbar-inside{
+        flex-direction: row;
+        gap: 20px;
+        flex-wrap: wrap;
+        padding: 20px 10px;
+    }
+    .banner{
+        flex-direction: column;
+    }
+    .banner-slider{
+        width: 100%;
+    }
+    .banner-slider-nav{
+        width: 100%;
+    }
+    .find-your-course{
+        flex-wrap: wrap;
+    }
+    .find-your-course-form{
+        width: 100%;
+    }
+    .courses{
+        width: 100%;
+    }
+    .courses > a{
+        flex-basis: 32%;
+    height: 27%;
+    }
+    .popular-course-number{
+        flex-basis: 60%;
+    }
+    .why-choose-us-content{
+        flex-direction: column;
+        align-items: center;
+    }
+    .why-choose-us-main,.questions{
+        width: 100%;
+    }
+    .w-c-u-stats{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .y-c-l-main{
+        justify-content: center;
+    }
+    .y-c-l-overlay-txt > a {
+            margin-bottom: 45px;
+    }
+    .y-c-l-overlay-txt:hover #l{
+        margin-top: 15px;
+        margin-bottom: 50px;
+    }
+    .location{
+        width: 100%;
+    }
+    .location>iframe{
+        width: 100%;
+    }
+    .o-l-e-stats-number{
+        width: 48%;
+    }
+    .o-l-e-heading > h1 {
+        font-size: 35px;
+    }
+    .main-events{
+        flex-direction: column;
+        gap: 60px;
+        align-items: center;
+    }
+    .o-l-e-main{
+        width: 100%;
+    }
+    .o-l-events-img>img{
+        width: 100%;
+    }
+    .o-l-e-content{
+        flex-wrap: wrap;
+        gap: 55px;
+        justify-content: center;
+    }
+    .o-l-e-autoplay{
+        width: 100%;
+    }
+    .o-l-events{
+        width: 80%;
+    }
+    .o-l-e-stats{
+        width: 90%;
+        align-items: center;
+        gap: 10px;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        padding: 30px 15px;
+    }
+    .w-c-s-main{
+        flex-direction: column;
+    }.w-c-s-number{
+        width: 100%;
+    }
+    .w-c-s-holder{
+        width: 100%;
+    }
+    .w-c-s-comments-1{
+        padding: 30px 20px 30px 35px;
+        position: relative;
+        width: 100%;
+    }
+    
+    .w-c-s-comments-1::before {
+        top:100%;
+    }
+    .w-c-s-comments{
+        padding: 35px;
+    }.w-c-s-number-1{
+        position: static;
+    }
+    .bn-content{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .bn-content-number{
+        width: 100%;
+    }
+    .bn-img > img{
+        width: 100%;
+    }
+    .uni-heading{
+        flex-direction: column;
+    }
+    .uni-heading > span{
+        width: 65%;
+    }
+    .i-d-main{
+        gap:124px;
+        flex-wrap: wrap;
+    }
+    .i-d-links{
+        flex-wrap: wrap;
+    }
+    .contact-us{
+        flex-wrap: wrap;
+    }
+    .dot-line-1,.dot-line-2{
+        width: 124px;
+        display: none;
+    }
+    .newsletter-form{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer-main{
+        flex-wrap: wrap;
+        padding-bottom: 50px;
+    }
+    .footer-number{
+        align-items: center;
+    }
+    .instructors-contain{
+        justify-content: center;
+    }
+    .copyright-bar-main{
+        padding: 35px 10px;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .w-c-s-right-arrow {
+        right: -15px;
+    }
+    .w-c-s-left-arrow{
+        left: -15px;
+    }
+    .our-history-and-advice-main{
+        padding: 50px 10px;
+        flex-wrap: wrap;
+    }
+    .scroll{
+        width: 100%;
+        order: 2;
+    }
+    .get-advice{
+        width: 100%;
+        order: 1;
+    }
+    .get-advice > form{
+        display: flex;
+        flex-direction: column;
+    }
+    .get-advice > form > input[type=text],
+    .get-advice > form > input[type=email],
+    .get-advice > form > input[type=submit]{
+        width: 100%;
+    }
+    .navigation > ul > a{
+        padding: 0 12px;
+    }
+    .uni-left-arrow{
+        right: 97%;
+    }
+    .language, .top-strip-address, .login-info{
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+    }
+
+
+}

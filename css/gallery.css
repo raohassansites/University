@@ -1,0 +1,289 @@
+/*FAQ*/
+.breadcrumbs {
+    background-image: url(../images/gallery.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .bd-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 15px;
+  }
+  
+  .bd-nav > a {
+    font-size: 15px;
+    font-family: "Ubuntu", sans-serif;
+    text-decoration: none;
+    color: #c3c8e2;
+  }
+  
+  .bd-main {
+    padding: 80px 0px;
+  }
+  
+  .bd-nav > a:last-child {
+    color: #fff;
+  }
+  
+  .bd-nav > i {
+    color: #fff;
+    font-size: 8px;
+  }
+  
+  .bd-heading {
+    text-align: center;
+    font-family: "Merriweather", serif;
+    color: #fff;
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
+  /*Gallery */
+.gallery-main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 50px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .gallery-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 10px;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 12px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  
+  .g-n-s {
+    color: #b99663;
+    padding: 12px 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid #b99663;
+    cursor: pointer;
+    margin-bottom: 50px;
+  }
+  
+  .g-n-s-active {
+    color: #fff;
+    background: #b99663;
+    -webkit-transition: .5s ease;
+    transition: .5s ease;
+  }
+  
+  .gallery-nav > input {
+    display: none;
+  }
+  
+  .gallery-img-main,
+  .gallery-img-main-1,
+  .gallery-img-main-2,
+  .gallery-img-main-3,
+  .gallery-img-main-4 {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 24px;
+    justify-content: flex-start;
+    display: none;
+  }
+  
+  .dsp-none {
+    display: none;
+  }
+  
+  .gallery-img {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .gallery-img > img {
+    display: block;
+    width: 100%;
+  }
+  
+  .gallery-overlay {
+    background: #222845ab;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    visibility: hidden;
+  }
+  
+  .gallery-overlay-txt {
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  
+  .gallery-overlay-txt > a {
+    background: #fff;
+    padding: 14px 16px;
+    border-radius: 100%;
+    text-align: right;
+    margin: 10px;
+  }
+  
+  .gallery-overlay-txt > a > i {
+    color: #222845;
+  }
+  
+  .gallery-overlay-txt > p {
+    width: 80%;
+    margin: 0 auto 20px;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 18px;
+    color: #fff;
+  }
+  
+  .gallery-img:hover .gallery-overlay {
+    visibility: visible;
+    left: 0;
+    -webkit-transition: .5s ease;
+    transition: .5s ease;
+  }
+  
+  .gallery-btm-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100%;
+    background: #fafafa;
+    padding: 15px;
+  }
+  
+  .gallery-btm-nav > a > i {
+    font-size: 8px;
+  }
+  
+  .gallery-btm-nav > a,
+  .nav-keys > a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 10px;
+    color: #cacaca;
+    background: #fff;
+    border-bottom: 2px solid #cacaca;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    font-style: italic;
+    text-decoration: none;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 12px;
+  }
+  
+  .nav-keys > a:nth-child(4n) {
+    background: #fafafa;
+    border: none;
+    padding-bottom: unset;
+  }
+  
+  .nav-keys > a:nth-child(4n):hover {
+    border: none;
+    color: #cacaca;
+  }
+  
+  .nav-keys {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 10px;
+  }
+  
+  .gallery-btm-nav > a:hover,
+  .nav-keys > a:hover {
+    border-bottom: 2px solid #222845;
+    color: #222845;
+    -webkit-transition: 0.9s cubic-bezier(0.39, 0.575, 0.565, 1);
+    transition: 0.9s cubic-bezier(0.39, 0.575, 0.565, 1);
+  }
+  
+  #gallery-img-main-1:checked ~ .new .gallery-img-main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-transition: .5s ease;
+    transition: .5s ease;
+  }
+  
+  #gallery-img-main-2:checked ~ .new .gallery-img-main-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-transition: .5s ease;
+    transition: .5s ease;
+  }
+  
+  #gallery-img-main-3:checked ~ .new .gallery-img-main-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-transition: .5s ease;
+    transition: .5s ease;
+  }
+  
+  #gallery-img-main-4:checked ~ .new .gallery-img-main-3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-transition: .5s ease;
+    transition: .5s ease;
+  }
+  
+  #gallery-img-main-5:checked ~ .new .gallery-img-main-4 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-transition: .5s ease;
+    transition: .5s ease;
+  }

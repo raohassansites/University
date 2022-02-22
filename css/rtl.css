@@ -1,0 +1,62 @@
+.slider-navigation {
+  padding: 42px 65px 42px 0px;
+  border-right: 5px solid transparent;
+  border-left: 0px;
+}
+
+.slick-center {
+  border-left: 0px;
+  border-right: 5px solid #b99663;
+}
+
+.heading-2:before {
+  right: -5px;
+}
+
+.heading-1:before {
+  left: -5px;
+  right: unset;
+}
+
+.why-choose-us-heading > .heading-1:before,
+.w-c-s-heading > .heading-1::before {
+  right: unset;
+}
+
+.get-advice > form > input[type=text],
+.get-advice > form > input[type=email] {
+  border-right: unset;
+  border-left: 2px solid #c3c8e2;
+  padding-left: 0;
+  padding-right: 20px;
+}
+
+.scroll {
+  direction: ltr;
+}
+
+.our-history {
+  direction: rtl;
+  padding-left: 0;
+  padding-right: 25px;
+}
+
+.uni-left-arrow {
+  left: 0;
+  right: unset;
+}
+
+.uni-right-arrow {
+  left: 20px;
+  right: unset;
+}
+
+.forgot-password {
+  text-align: left;
+}
+
+.login-popup > form > input {
+  padding-left: 0;
+  padding-right: 15px;
+}
+/*# sourceMappingURL=rtl.css.map */
