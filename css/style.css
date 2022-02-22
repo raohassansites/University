@@ -838,7 +838,6 @@
   font-size: 15px;
   width: 100%;
   text-align: right;
-  margin-bottom: 10px;
   text-decoration: none;
 }
 
@@ -865,8 +864,6 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-          gap: 15px;
-          flex-wrap: wrap;
   margin-bottom: 20px;
 }
 
@@ -878,6 +875,7 @@
   text-decoration: none;
   text-align: center;
   border: 1px solid transparent;
+  margin-right: 15px;
 }
 
 .popup-links > a:last-child {
@@ -1704,7 +1702,8 @@
   overflow-y: scroll;
   direction: rtl;
   scrollbar-color: #a6abc1 #5a617d;
-scrollbar-width: thin;
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
 }
 
 .our-history {

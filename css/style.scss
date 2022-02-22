@@ -1229,6 +1229,9 @@ transition: .5s ease;
     width: 37%;
     overflow-y: scroll;
     direction: rtl;
+    scrollbar-color: #a6abc1 #5a617d;
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
 }
 .our-history{
      width: 100%;
